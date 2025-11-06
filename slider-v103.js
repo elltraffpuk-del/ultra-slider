@@ -5,10 +5,10 @@ console.log("!!!!!!!!")
  * Использование:
  *   // ESM
  *   import UltraSlider from './UltraSlider.js';
- *   const slider = new UltraSlider('#my-slider', { /* options */ });
+ *   const slider = new UltraSlider('#my-slider', {  options  });
  *
  *   // UMD (через <script src="UltraSlider.js"></script>)
- *   const slider = new window.UltraSlider('#my-slider', { /* options */ });
+ *   const slider = new window.UltraSlider('#my-slider', {  options  });
  */
 (function (root, factory) {
   if (typeof define === 'function' && define.amd) {
